@@ -1,9 +1,5 @@
 # hypetribe.co.za
 code upgrade for hypetribe.co.za website 
-
-
-Where we will upload and approve the last version before deployment
-
 REQUIREMENTS FOR THE WEBSITE. 
 
 HYPETRIBE website for vibes, it should contain information, about us, our music (playlists 
@@ -47,7 +43,6 @@ I have uploaded the black annd white logo under the /tmp/ folder.
 								<li class="menu-item"><a href="contact.html">CONTACT US</a></li>
 						</ul>
 					</nav>
-
 
 
 
