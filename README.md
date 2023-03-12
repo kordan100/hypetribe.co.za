@@ -29,9 +29,8 @@ Header and Footer - Neo
 
 landing page
 
-{
-1.contaning basic about us information, with a read more button leading to the main about us page.
-2.three latest or best or recently listened added playlists and mixtapes just three with a more playlists/mitapes link
-}
+I have uploaded the black annd white logo under the /tmp/ folder. 
+
+
 
 
