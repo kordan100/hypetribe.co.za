@@ -2,21 +2,18 @@
 code upgrade for hypetribe.co.za website 
 REQUIREMENTS FOR THE WEBSITE. 
 
-HYPETRIBE website for vibes, it should contain information 
--about us -
--our music (playlists and mixtapes on soundcloud)
--our upcoming events - 
--sound hire offerings (for later development it must allow payments upfront)
--merchandise (for later development it must allow payments upfront)
--gallery of previous events
--our contact information
+HYPETRIBE website for vibes, it should contain information, about us, our music (playlists 
+and mixtapes on soundcloud), our upcoming events, sound hire offerings, merchandise(later), gallery of previous events, our contact information
 
 
 PAGES 
 
-landing page
-About us
-Music
+landing page- Khodani
+About us- Neo
+Music- Khodani
+Sound Hire(Services)- Samu
+Gallery- Samu
+Contact Us- Neo
 
 
 landing page
