@@ -31,6 +31,19 @@ landing page
 
 I have uploaded the black annd white logo under the /tmp/ folder. 
 
+@Neo i hope you dont mind me sharing the header for the six pages.
+
+	<nav id="site-menu" class="col-12 col-lg order-3 order-sm-4 order-lg-2">
+						<ul>
+								<li class="menu-item menu-item-has-children current-menu-parent"><a href="index.html">HYPE-TRIBE</a></li>
+								<li class="menu-item menu-item-has-children"><a href="styleguide.html">ABOUT US</a></li>
+								<li class="menu-item menu-item-has-children"><a href="episodes.html">MUSIC</a></li>
+								<li class="menu-item"><a href="contact.html">HIRE SERVICES</a></li>
+								<li class="menu-item"><a href="contact.html">GALLERY</a></li>
+								<li class="menu-item"><a href="contact.html">CONTACT US</a></li>
+						</ul>
+					</nav>
+
 
 
 
