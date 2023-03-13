@@ -33,9 +33,9 @@ Header and Footer - Neo
 
 landing page
 
-I have uploaded the black annd white logo under the /tmp/ folder. 
+I have uploaded the black and white logo under the /tmp/ folder. 
 
-@Neo i hope you dont mind me sharing the header for the six pages.
+@Neo i hope you don't mind me sharing the header for the six pages.
 
 	<nav id="site-menu" class="col-12 col-lg order-3 order-sm-4 order-lg-2">
 						<ul>
