@@ -5,7 +5,7 @@
  */
 
 // Who you want to recieve the emails from the form. (Hint: generally you.)
-$sendto = 'frangelinematiagoje@gmail.com';
+$sendto = 'info@hypetribe.co.za';
 
 // The subject you'll see in your inbox
 $subject = 'Message from contact form';
