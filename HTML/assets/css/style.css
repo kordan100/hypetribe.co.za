@@ -1332,6 +1332,7 @@ button .mdi {
     .mc4wp-form .one-line input[type=email] {
         margin-bottom: 0;
     }
+
     .mc4wp-form .one-line input[type=submit] {
         margin: 0 0 0 -3px;
         border-radius: 0;
@@ -1546,15 +1547,18 @@ button .mdi {
 /* end of services styling */
 
 @media (max-width: 991px) {
+
     .site-menu-toggle,
     .site-menu-toggle a {
         display: block;
     }
+
     .site-menu-toggle a {
         width: 30px;
         text-align: center;
         color: inherit;
     }
+
     #top .site-menu-toggle a:before {
         content: '\F35C';
         display: inline-block;
@@ -1563,46 +1567,59 @@ button .mdi {
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
     }
+
     #site-menu {
         display: none;
     }
+
     .mobile-menu-opened #site-menu {
         display: block;
     }
+
     #site-menu ul {
         padding-left: 0;
         list-style: none;
     }
+
     #site-menu>ul {
         margin-top: 2rem;
         margin-bottom: 0;
     }
+
     #site-menu li {
         border-top: 1px solid rgba(255, 255, 255, .08);
     }
+
     #site-menu a {
         display: block;
         padding: 10px 15px;
         text-decoration: none;
     }
+
     #site-menu .current-menu-item>a {
         background-color: rgba(255, 255, 255, .08);
     }
+
     #site-menu .current-menu-item>a.menu-expand {
         background-color: transparent;
     }
+
     #site-menu ul ul a {
         padding-left: 30px;
     }
+
     #site-menu ul ul ul a {
         padding-left: 45px;
     }
+
     #site-menu ul ul ul ul a {
         padding-left: 60px;
     }
+
     #site-menu .menu-item-has-children>a:first-child {
         padding-right: 35px;
     }
+
     #site-menu .menu-item-has-children .menu-expand {
         position: absolute;
         top: 0;
@@ -1611,12 +1628,15 @@ button .mdi {
         font-size: 18px;
         text-align: center;
     }
+
     .no-js #site-menu .menu-item-has-children .menu-expand {
         display: none;
     }
+
     #site-menu .menu-item-has-children .menu-expand:before {
         content: none;
     }
+
     #site-menu .menu-item-has-children .menu-expand:after {
         content: '\f35d';
         font: normal normal normal 18px/1 'Material Design Icons';
@@ -1624,17 +1644,21 @@ button .mdi {
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
     }
+
     #site-menu .menu-item-has-children.collapse>.menu-expand:after {
         content: '\f360';
     }
+
     #site-menu .menu-expand {
         position: absolute;
         top: 0;
         right: 0;
     }
+
     #site-menu .menu-item-has-children ul {
         display: none;
     }
+
     #site-menu .menu-item-has-children.collapse>ul {
         display: block;
     }
@@ -1646,10 +1670,12 @@ button .mdi {
         margin-bottom: 0;
         list-style: none;
     }
+
     #site-menu>ul {
         position: relative;
         padding-left: 21px;
     }
+
     #site-menu>ul:after {
         content: '';
         position: absolute;
@@ -1660,14 +1686,17 @@ button .mdi {
         margin-top: -20px;
         background-color: rgba(255, 255, 255, .08);
     }
+
     #site-menu li {
         display: inline-block;
     }
+
     #site-menu a {
         display: block;
         padding: 5px 10px;
         text-decoration: none;
     }
+
     .no-touch #site-menu a:hover,
     #site-menu .hover>a,
     #site-menu a:focus,
@@ -1675,17 +1704,21 @@ button .mdi {
     #site-menu .current-menu-parent .current-menu-item>a {
         opacity: .8;
     }
+
     #site-menu .current-menu-parent .current-menu-parent>a,
     #site-menu .current-menu-parent .current-menu-item>a {
         color: inherit;
     }
+
     #site-menu .menu-expand {
         display: none;
     }
+
     #site-menu nav>ul>.current-menu-item>a,
     #site-menu nav>ul>.current-menu-parent>a {
         position: relative;
     }
+
     #site-menu .menu-item-has-children ul {
         visibility: hidden;
         position: absolute;
@@ -1700,16 +1733,19 @@ button .mdi {
         opacity: 0;
         border-radius: 0;
     }
+
     .no-touch #site-menu .menu-item-has-children:hover>ul,
     #site-menu .menu-item-has-children.hover>ul {
         visibility: visible;
         margin-top: 0;
         opacity: 1;
     }
+
     .csstransitions #site-menu li.menu-item-has-children ul {
         transition: opacity var(--transition-duration), visibility var(--transition-duration), margin var(--transition-duration);
         transition-delay: .1s;
     }
+
     #site-menu .menu-item-has-children .menu-item-has-children ul {
         top: -1rem;
         left: 100%;
@@ -1717,32 +1753,40 @@ button .mdi {
         padding-top: 0;
         font-size: 1em;
     }
+
     #site-menu .menu-item-has-children .menu-item-has-children ul:before {
         content: none;
     }
+
     #site-menu .menu-item-has-children li {
         display: block;
         background-color: var(--primary-color);
     }
+
     #site-menu .menu-item-has-children li:first-child {
         padding-top: 1rem;
         border-radius: .2rem .2rem 0 0;
     }
+
     #site-menu .menu-item-has-children .menu-item-has-children li:first-child {
         border-radius: 0 .2rem 0 0;
     }
+
     #site-menu .menu-item-has-children li:last-child {
         padding-bottom: 1rem;
         border-radius: 0 0 .2rem .2rem;
     }
+
     #site-menu .menu-item-has-children .menu-item-has-children li:last-child {
         border-radius: 0 0 .2rem 0;
     }
+
     #site-menu .menu-item-has-children li a {
         display: block;
         padding: .5rem;
         margin: 0;
     }
+
     #site-menu .menu-item-has-children li .menu-expand {
         display: none;
     }
@@ -1752,6 +1796,7 @@ button .mdi {
     #site-menu>ul {
         padding-left: 41px;
     }
+
     #site-menu>ul:after {
         left: 10px;
     }
@@ -1775,6 +1820,7 @@ button .mdi {
         text-align: center;
         display: none;
     }
+
     .mobile-menu-opened #top .call-to-action {
         display: block;
     }
@@ -1831,9 +1877,11 @@ button .mdi {
     from {
         top: 0;
     }
+
     50% {
         top: -20px;
     }
+
     to {
         top: 0;
     }
@@ -1843,9 +1891,11 @@ button .mdi {
     from {
         top: 0;
     }
+
     50% {
         top: -20px;
     }
+
     to {
         top: 0;
     }
@@ -1881,10 +1931,12 @@ button .mdi {
     #featured {
         padding-bottom: 4rem;
     }
+
     .error404 #featured {
         padding-top: 8rem;
         padding-bottom: 8rem;
     }
+
     #featured div[class*="col-md"] h2:last-child,
     #featured div[class*="col-md"] p:last-child,
     #featured div[class*="col-md"] .button:last-child {
@@ -1893,6 +1945,7 @@ button .mdi {
 }
 
 @media (min-width: 992px) {
+
     #featured h2:last-child,
     #featured p:last-child {
         margin-bottom: 0;
@@ -1907,16 +1960,19 @@ button .mdi {
     #featured {
         padding-top: 28px;
     }
+
     #featured,
     .home #featured {
         padding-bottom: 56px;
     }
+
     .single-page #featured,
     .single-post #featured,
     .single-episode #featured {
         padding-top: 56px;
         padding-bottom: 72px;
     }
+
     .error404 #featured {
         padding-top: 10rem;
         padding-bottom: 10rem;
@@ -1927,16 +1983,19 @@ button .mdi {
     #featured {
         padding-top: 56px;
     }
+
     #featured,
     .home #featured {
         padding-bottom: 84px;
     }
+
     .single-page #featured,
     .single-post #featured,
     .single-episode #featured {
         padding-top: 84px;
         padding-bottom: 112px;
     }
+
     .error404 #featured {
         padding-top: 13rem;
         padding-bottom: 13rem;
@@ -1947,16 +2006,19 @@ button .mdi {
     #featured {
         padding-top: 84px;
     }
+
     #featured,
     .home #featured {
         padding-bottom: 112px;
     }
+
     .single-page #featured,
     .single-post #featured,
     .single-episode #featured {
         padding-top: 112px;
         padding-bottom: 140px;
     }
+
     .error404 #featured {
         padding-top: 15rem;
         padding-bottom: 15rem;
@@ -2015,6 +2077,7 @@ button .mdi {
         text-align: left;
         padding-top: 2rem;
     }
+
     .expand-featured-media #featured .social-navigation {
         padding-bottom: 0;
     }
@@ -2100,6 +2163,7 @@ button .mdi {
         width: 66px;
         height: 66px;
     }
+
     #featured .social-navigation a:hover:before,
     #featured .social-navigation a:focus:before {
         top: -11px;
@@ -2265,6 +2329,7 @@ button .mdi {
     .featured-media {
         height: 280px;
     }
+
     .featured-media img {
         top: -30%;
     }
@@ -2274,6 +2339,7 @@ button .mdi {
     .featured-media {
         height: 320px;
     }
+
     .featured-media img {
         top: -35%;
     }
@@ -2283,6 +2349,7 @@ button .mdi {
     .featured-media {
         height: 360px;
     }
+
     .featured-media img {
         top: -40%;
         margin-top: -30px;
@@ -2299,6 +2366,7 @@ button .mdi {
         height: 100%;
         margin-top: 0;
     }
+
     .featured-media img {
         position: relative;
         top: 0;
@@ -2389,6 +2457,7 @@ button .mdi {
 }
 
 @media (min-width: 1200px) {
+
     .feature-box h5,
     .feature-box .feature-box-title {
         margin-top: 1.3rem;
@@ -2466,6 +2535,7 @@ button .mdi {
 }
 
 @media (min-width: 768px) {
+
     .episodes-listing article,
     .post-listing article {
         padding-top: 1.25rem;
@@ -2596,6 +2666,7 @@ button .mdi {
 }
 
 @media (min-width: 1200px) {
+
     .entry-meta .posted-on:before,
     .entry-meta .tags:before {
         margin-left: .6em;
@@ -2721,7 +2792,7 @@ button .mdi {
 }
 
 .pagination {
-    margin-top: 1.25rem;
+    margin-top: 4rem;
 }
 
 .pagination-load-more {
@@ -2763,10 +2834,12 @@ button .mdi {
 }
 
 @media (min-width: 480px) {
+
     .share-entry .share-title,
     .share-entry .share-links {
         display: inline-block;
     }
+
     .share-entry .share-links {
         margin-left: .3rem;
         margin-bottom: 0;
@@ -2846,6 +2919,7 @@ button .mdi {
     .post-controls .prev-post {
         text-align: right;
     }
+
     .post-controls .prev-post,
     .post-controls h5 {
         margin-bottom: 0;
