@@ -19,10 +19,13 @@ Table of contents:
 :root {
 	--primary-color: #f17a24;
 	--primary-alt-color: #ffffff;
-	--secondary-color: #0e2d2d; /*#331500;*/
+	--secondary-color: #0e2d2d;
+	/*#331500;*/
 	--link-color: #ffbd14;
-	--border-color: #192b2b; /*#2d231a;*/
-	--body-background-color: #091010; /*#170e09;*/
+	--border-color: #192b2b;
+	/*#2d231a;*/
+	--body-background-color: #091010;
+	/*#170e09;*/
 	--body-text-color: #ffffff;
 	--body-font: 'Roboto', sans-serif;
 	--headings-font: 'Poppins', serif;
@@ -43,7 +46,16 @@ html {
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+article,
+aside,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section {
 	display: block;
 }
 
@@ -334,7 +346,7 @@ td:last-child {
 	padding-right: 0;
 }
 
-table > :last-child tr:last-child td {
+table> :last-child tr:last-child td {
 	border-bottom: 0;
 }
 
@@ -345,7 +357,7 @@ fieldset {
 	padding: 0;
 }
 
-fieldset > :last-child {
+fieldset> :last-child {
 	margin-bottom: 0;
 }
 
@@ -516,7 +528,8 @@ a:focus {
 	text-decoration: underline;
 }
 
-a:not([href]):not([tabindex]):hover, a:not([href]):not([tabindex]):focus,
+a:not([href]):not([tabindex]):hover,
+a:not([href]):not([tabindex]):focus,
 a:not([href]):not([tabindex]) {
 	color: inherit;
 	text-decoration: none;
@@ -752,8 +765,8 @@ a:not([href]):not([tabindex]) {
 	color: #fff;
 }
 
-.alert > :last-child,
-.box > :last-child {
+.alert> :last-child,
+.box> :last-child {
 	margin-bottom: 0;
 }
 
@@ -830,22 +843,22 @@ a:not([href]):not([tabindex]) {
 	width: 30px;
 }
 
-.jump-point ~ .line-link {
+.jump-point~.line-link {
 	margin-left: 12px;
 	text-transform: none;
 }
 
-.jump-point ~ .line-link:hover,
-.jump-point ~ .line-link:focus,
-.jump-point:hover ~ .line-link,
-.jump-point:focus ~ .line-link {
+.jump-point~.line-link:hover,
+.jump-point~.line-link:focus,
+.jump-point:hover~.line-link,
+.jump-point:focus~.line-link {
 	padding-left: 55px;
 }
 
-.jump-point ~ .line-link:hover:before,
-.jump-point ~ .line-link:focus:before,
-.jump-point:hover ~ .line-link:before,
-.jump-point:focus ~ .line-link:before {
+.jump-point~.line-link:hover:before,
+.jump-point~.line-link:focus:before,
+.jump-point:hover~.line-link:before,
+.jump-point:focus~.line-link:before {
 	width: 35px;
 }
 
@@ -863,7 +876,7 @@ a:not([href]):not([tabindex]) {
 	display: block;
 }
 
-.tab-container .tab-content > :last-child {
+.tab-container .tab-content> :last-child {
 	margin-bottom: 0;
 }
 
@@ -1245,7 +1258,7 @@ input[type="submit"]:focus,
 	border-width: 0 0 2px 0;
 }
 
-p > .button:last-child {
+p>.button:last-child {
 	margin-right: 0;
 }
 
